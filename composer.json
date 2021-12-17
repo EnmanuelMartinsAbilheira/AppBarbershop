@@ -1,0 +1,23 @@
+{
+    "name": "enmanuelmartins/app-salon_php_mvc_js_sass_fin",
+    "description": "Proyecto PHP 8, MVC, SQL, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enmanuel Martins",
+            "email": "eel2000martins@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
+
